@@ -1,0 +1,62 @@
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: lightblue;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+h1{
+    color: rgb(5, 88, 155);
+}
+
+button{
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(5, 88, 155);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: .5 all ease;
+}
+
+button:hover{
+    background-color: rgb(41, 103, 153);
+}
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(41, 103, 153);
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.postItem{
+    background-color: rgb(175, 210, 223);
+    border: 1px solid rgb(92, 151, 228);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.editForm{
+    display: none;
+    margin-top: 10px;
+}
